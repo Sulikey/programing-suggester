@@ -1,6 +1,6 @@
 
   .kim  {
-    width:100px;
+    width:300px;
     height: auto;
     float: left;
     padding: 5%;
@@ -8,7 +8,7 @@
   }
 
   .kou  {
-    width:100px;
+    width:300px;
     height: auto;
     float:left;
     padding: 5%;
@@ -16,30 +16,35 @@
   }
 
   .ken  {
-    width:100px;
+    width:300px;
     height: auto;
     float: left;
     padding: 5%;
     
   }
 .kim p{
-    border-width: 2px;
-  
+  border-style: solid;
+    border-width: auto;
+    background-color: rgb(80, 48, 168);
     }
 
 .kou p{
-      border-width: 2px;
+  border-style: solid;
+      border-width:auto;
+      background-color:rgb(80, 48, 168);
     }
 
 .ken p{
-        border-width: 2px;
+  border-style: solid;
+        border-width: auto;
+        background-color: rgb(80, 48, 168);
         }
 
 .kim img{
-      width: 200px;
+      width: 300px;
     }
   .kou img{
-      width: 200px;
+      width: 300px;
     }
   .ken img{
-      width:200px;
+      width:300px;
