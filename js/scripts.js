@@ -4,28 +4,28 @@ function jav(que1, que2, que3, que4, que5) {
 }
 
 function ccc(que1, que2, que3, que4, que5) {
-  return (que1 === que2 || que1 === que3 || que2 === que3 || que3 === que4 || que3 === que5);
+  return (que3 === que4 || que5 === que3);
 }
 
-function rub(que1, que2, que3, que4, que5) {
-  return (que1 === que2 && que2 === que2 || que2 === que3 && que3 === que5);
+function rub(que1, que2,) {
+  return (que1 === que2);
 }
 
 function check(que1, que2, que3, que4, que5) {
   if (jav(que1, que2, que3, que4, que5)) {
       return "JavaScript";
-  } else if (rub(que1, que2, que3, que4, que5)) {
+  } else if (rub(que1, que2, que3)) {
       if (ccc(que1, que2, que3)) {
           return "C#";
-      } else { (rub(que1, que2))} {
-          return "Ruby";
       } else {
-      { 
-        return "NONE";
-  }
-}
+          return "Ruby";
+          }
+    } else {
+      return "Stay home and watch TV instead!";
+    }
+  }      
 
-// ui
+  // ui
 
 function setArt(val) {
   let art;
@@ -34,7 +34,7 @@ function setArt(val) {
   } else if (val === "JavaScript") {
       art = "img/java.jpeg";
   } else if (val === "Ruby") {
-      art = "img/rubyp.jepg";
+      art = "img/rubyp.jpeg";
   } else {
       art = "img/keep.jpeg";
   }
