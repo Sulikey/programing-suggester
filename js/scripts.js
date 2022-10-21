@@ -3,12 +3,12 @@ function jav(que1, que2, que3, que4, que5) {
   return (que1 === que2 && que2 === que3 && que3 === que4 && que4 === que5);
 }
 
-function ccc(que1, que2, que3, que4, que5) {
-  return (que3 === que4 || que5 === que3);
+function ccc(que1, que2, que3) {
+  return (que1 === que2 && que2 === que3 && que3);
 }
 
 function rub(que1, que2,) {
-  return (que1 === que2);
+  return (que1 || que2);
 }
 
 function check(que1, que2, que3, que4, que5) {
