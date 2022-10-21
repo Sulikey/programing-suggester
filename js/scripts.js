@@ -3,36 +3,37 @@ function jav(que1, que2, que3, que4, que5) {
   return (que1 === que2 && que2 === que3 && que3 === que4 && que4 === que5);
 }
 
-function ccc(que1, que2, que3) {
-  return (que1 === que2 && que2 === que3 && que3);
+function ccc(que1, que2,) {
+  return (que1 === que2);
 }
 
-function rub(que1, que2,) {
-  return (que1 || que2);
+function rub(que3, que4, que5,) {
+  return (que3 === que4 && que4 === que5 && que3 === que5);
 }
 
 function check(que1, que2, que3, que4, que5) {
   if (jav(que1, que2, que3, que4, que5)) {
       return "JavaScript";
-  } else if (rub(que1, que2, que3)) {
-      if (ccc(que1, que2, que3)) {
+    } else if (rub(que3, que4, que5)) {
+      return "Ruby";
+    } else if (ccc(que1,que2)) {
           return "C#";
-      } else {
-          return "Ruby";
-          }
-    } else {
-      return "Stay home and watch TV instead!";
+      } 
+     else { 
+      return "Stay home and watch TV!";
     }
-  }      
+  }    
 
   // ui
 
+
+
 function setArt(val) {
   let art;
-  if (val === "C#") {
-      art = "img/cc.jpeg";
-  } else if (val === "JavaScript") {
-      art = "img/java.jpeg";
+  if (val === "JavaScript") {
+    art = "img/java.jpeg";
+  } else if (val === "C#") {
+    art = "img/cc.jpeg";
   } else if (val === "Ruby") {
       art = "img/rubyp.jpeg";
   } else {
