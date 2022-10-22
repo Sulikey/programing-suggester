@@ -1,4 +1,4 @@
-# _Programing-Suggester_
+# _Programming-Suggester_
 
 #### By _**Anahi Ruiz Robles**_
 
@@ -12,7 +12,7 @@
 
 ## Description
 
-_This silly webpage contains five questions that will help you figure out what program language suits you best but only if you love the kardashians._
+_This silly webpage contains five questions that will help you figure out what programming language suits you best but only if you love the Kardashians._
 
 ## Setup/Installation Requirements
 
